@@ -6,6 +6,7 @@ describe('Landing Page Test with Authorization', () => {
         password: Cypress.env('PASSWORD'),
       }
     });
+    
     cy.contains('Your timeless treasure');
     cy.wait(5000);
     cy.percySnapshot('Homepage test');

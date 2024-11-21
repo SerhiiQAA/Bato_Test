@@ -6,6 +6,7 @@ describe('Landing Page Test with Authorization', () => {
         password: Cypress.env('PASSWORD'),
       }
     });
+    
     cy.contains('Your timeless treasure'); 
     cy.get('.hero__icon > img').click();
     cy.get('#popup-video > .popup__inner').should('be.visible');   
