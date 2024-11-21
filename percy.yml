@@ -1,0 +1,6 @@
+version: 1
+snapshot:
+  widths: [375, 768, 1280]  # Розміри екрана, для яких робитимуться знімки
+  minHeight: 1024  # Мінімальна висота
+  enableJavaScript: true  # Дозволити JavaScript для знімків
+  shadowrootmode: true  # Використовувати декларативний Shadow DOM
